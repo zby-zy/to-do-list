@@ -12,8 +12,8 @@
 h1{
     font-size: 56px;
     font-family: myFont;
-    text-align: center;
-    padding: 100px;
+    text-align: left;
+    padding: 15px;
 }
 body{
     height: 100vh;
