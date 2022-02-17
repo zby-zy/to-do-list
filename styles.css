@@ -7,12 +7,13 @@
 }
 
 body {
-    height: 100hv;
+    height: 100vh;
     background: linear-gradient( 135deg, #3140ce, #769de4);
 }
 
 .container {
     width: 40%;
+    min-width: 450px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
