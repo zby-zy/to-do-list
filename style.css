@@ -5,6 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: myFont;
+    src: url(LEMONMILK-Medium.otf);
+}
+h1{
+    font-size: 56px;
+    font-family: myFont;
+    text-align: center;
+    padding: 100px;
+}
 body{
     height: 100vh;
     background: linear-gradient( 135deg, #3140ce, #769de4);
