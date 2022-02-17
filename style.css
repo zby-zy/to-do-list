@@ -1,15 +1,15 @@
 *,
 *:before,
-*:after {
+*:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body {
+body{
     height: 100vh;
     background: linear-gradient( 135deg, #3140ce, #769de4);
 }
-.container {
+.container{
     width: 40%;
     min-width: 450px;
     position: absolute;
@@ -18,14 +18,14 @@ body {
     left: 50%;
     padding: 30px 40px;
 }
-#newtask {
+#newtask{
     position: relative;
     background-color: #ffffff;
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 3);
 }
-#newtask input {
+#newtask input{
     width: 70%;
     width: 70%;
     height: 45px;
@@ -38,11 +38,11 @@ body {
     position: relative;
     border-radius: 5px;
 }
-#newtask input:focus {
+#newtask input:focus{
     outline: none;
     border-color: #3140ce;
 }
-#newtask button {
+#newtask button{
     position: relative;
     float: right;
     width: 20%;
@@ -56,7 +56,7 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-#tasks {
+#tasks{
     background-color: #ffffff;
     padding: 30px 20px;
     margin-top: 60px;
@@ -65,7 +65,7 @@ body {
     width: 100%;
     position: relative;
 }
-.task {
+.task{
     background-color: #ffffff;
     height: 50px;
     padding: 5px 10px;
@@ -76,12 +76,12 @@ body {
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
 }
-.task span {
+.task span{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-.task button {
+.task button{
     background-color: #3140ce;
     color: #ffffff;
     height: 100%;
@@ -91,6 +91,6 @@ body {
     cursor: pointer;
     outline: none;
 }
-.completed {
+.completed{
     text-decoration: line-through;
 }
